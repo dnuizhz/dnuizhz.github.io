@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no, viewport-fit=cover">
+    <title>22201011712张荭桢</title>
+    <script src="./zuoyetubiao/iconfont.js"></script>
+    <style>
+         .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+         }
+        body,h2,ul,p{
+            padding: 0;
+            margin: 0;
+         }
+         body{
+            margin-bottom: 35px;
+            background-color: rgb(181, 181, 181);
+         }
+         ul{
+            list-style: none;
+        }
+         a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+         #bnav{
+            position: fixed;
+            bottom: 0;
+            left:0;
+            z-index: 9;
+            background-color: aliceblue;
+            width: 100%;
+        }
+        #bnav ul{
+            display: flex;
+        }
+        #bnav li{
+            width: 22%;
+            text-align: center;
+        }
+        #bnav svg{
+            font-size: 30px;
+            transition: all .6s;
+            color: darkgray;  
+        }
+        #bnav a{
+            text-decoration: none;
+            color:darkgray;
+            transition: all .6s;
+        }
+        #bnav a:hover{
+            color:rgb(31, 7, 134);
+        }
+        #bnav svg:hover{
+            color:rgb(31, 7, 134) ;
+        }
+        #bnav2{
+            display: flex;
+            width: 100%;
+            height: 30px;
+        }
+       
+        #bnav2 ul{
+            width:100%; 
+        }
+       
+        #bnav2 li{
+            width: 100%;
+            text-align: center;
+        }
+       
+        #bnav2 a{
+            transition: all .2s;
+            font-size: 15px;
+            color: rgb(0, 0, 0);
+        }
+        
+        #bnav a:hover{
+            font-size: 18px;
+            color: rgb(142, 138, 138);
+        }
+        .dk{
+            width: 100%;
+            height: 1000px;
+            background-color: rgb(210, 209, 209);
+        }
+        .a{
+            text-decoration: none;
+        }
+        .tab{
+            width: 95%;
+            margin: 16px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top:20px;
+        }
+        .tt{
+            display: flex;
+            width: 100%;
+            height: 100px;
+        }
+        .tt span{
+            width: 100%;
+            line-height: 33px;
+            text-align: center;
+            font-size: 14px;
+            letter-spacing: 3px;
+        }
+        .cur{
+            font-weight: bold;
+            color: #039;
+            margin-bottom: -1px;
+        }
+        .tc{
+            height: 800px;
+            text-align: center;
+            display: none;
+        }
+        .k1{
+            width:95%;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;    /*横过来 */
+            height: 130px;
+            background-color: #fff;
+            border-radius: 20px;    /*外框变圆形*/
+            margin-bottom: 10px;   /*每个k1之间的距离*/
+        }
+        .k2{
+            width: 180%;
+            height: 130px;
+            margin-bottom: auto;
+            margin-top: auto;
+            text-align: left;
+        }
+        .k22{
+            font-size: 20px;
+            color: black;
+            margin-left: 5px;
+        }
+        .k223{
+            font-size: 10px;
+            color: darkgrey;
+            margin-top: 10px;
+            margin-left:5px;
+        }
+        .k3{
+            width: 100%;
+            text-align: center;
+            margin-bottom: auto;
+            margin-top: auto;
+
+        }
+        .k3 p{
+            color: #fff;
+            background-color: #039;
+            font-size: 15px;
+            width: 50px;
+            height: 20px;
+            border-radius: 15px;
+            margin-left: 30%;
+            
+        }
+        /* <div class="k22">
+                            <p>大连高新万达广场店</p>
+                        </div>
+                        <div class="k223">
+                            <p>辽宁省大连市高新园区黄浦路506a号娱乐楼万达广场四楼</p>
+                        </div> */
+        .fd{
+        margin-top: 10px;
+        width: 90%;
+        margin-left: auto;
+        margin-right:auto;
+        height: 280px;
+        background-color: #fff;
+        border-radius: 20px;
+        overflow: hidden;
+        white-space: nowrap;
+       }
+    
+       .lm{
+            width:100%;
+            height:200px;
+            overflow:auto;
+            white-space: nowrap;
+            display: flex;
+       }
+       .lm2 p{
+        font-size: 20px;
+        font-weight: bolder;
+        margin-bottom: 15px;
+        padding-left: 10px;
+        padding-top: 10px;
+       }
+       .lm2{
+        text-align: left;
+       }
+       .z1{
+            width: 100%;
+            height: 200px;
+            background-color: #fff;
+            display: flex;
+            
+       }
+       .z2{
+            margin-right:25px;
+            display: flex;
+       }
+       .z2 button{
+            border-radius:20px;
+            border-style: none;
+            background-color: blue;
+            color: #fff;
+            font-size: 20px;
+       }
+       .z2 img{
+            width: 80px;
+            height: auto;
+       }
+</style>
+</head>
+<body>
+    <div class="dk">
+        <div class="tab">
+            <div class="tt">
+                <span class="cur">影城</span>
+                <span>影片</span>
+            </div>
+            <div class="tc" style="display:block;">
+                <div class="k1">
+                    <div class="k2">
+                        <div class="k22">
+                            <p>22201011712张荭桢</p>
+                        </div>
+                        <div class="k223">
+                            <p>辽宁大连甘井子虹韵路6号万达广场2F层万达影城</p>
+                        </div>
+                    </div>
+                    <div class="k3">
+                        <a href="#">
+                            <P>购票</P>
+                        </a>
+                    </div>
+                </div>
+                <div class="k1">
+                    <div class="k2">
+                        <div class="k22">
+                            <p>大连甘井子万达广场店</p>
+                        </div>
+                        <div class="k223">
+                            <p>辽宁大连甘井子虹韵路6号万达广场2F层万达影城</p>
+                        </div>
+                    </div>
+                    <div class="k3">
+                        <a href="#">
+                            <P>购票</P>
+                        </a>
+                    </div>
+                </div>
+                <div class="k1">
+                    <div class="k2">
+                        <div class="k22">
+                            <p>大连万达影城华府店</p>
+                        </div>
+                        <div class="k223">
+                            <p>辽宁大连市西岗区中山路281号印象城3F万达影城</p>
+                        </div>
+                    </div>
+                    <div class="k3">
+                        <a href="#">
+                            <P>购票</P>
+                        </a>
+                    </div>
+                </div>
+                <div class="k1">
+                    <div class="k2">
+                        <div class="k22">
+                            <p>大连万达影城乐都汇店</p>
+                        </div>
+                        <div class="k223">
+                            <p>大连市甘井子区张前路211乐都汇购物中心L4F008</p>
+                        </div>
+                    </div>
+                    <div class="k3">
+                        <a href="#">
+                            <P>购票</P>
+                        </a>
+                    </div>
+                </div>
+                <div class="k1">
+                    <div class="k2">
+                        <div class="k22">
+                            <p>大连万达影城和平广场奥纳店</p>
+                        </div>
+                        <div class="k223">
+                            <p>辽宁省大连市沙河口区高尔基路705号4层2号</p>
+                        </div>
+                    </div>
+                    <div class="k3">
+                        <a href="#">
+                            <P>购票</P>
+                        </a>
+                    </div>
+                </div>
+                <div class="k1">
+                    <div class="k2">
+                        <div class="k22">
+                            <p>大连万达影城和平广场奥纳店</p>
+                        </div>
+                        <div class="k223">
+                            <p>辽宁省大连市沙河口区高尔基路705号4层2号</p>
+                        </div>
+                    </div>
+                    <div class="k3">
+                        <a href="#">
+                            <P>购票</P>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="tc">
+                <div class="fd">
+                    <div class="lm2">
+                        <p>正在热映</p>
+                    </div>
+                    <div class="lm">
+                        <div class="z1">
+                            <div class="z2">
+                                <a href="#">
+                                    <img src="./img/img1/1.png">
+                                    <p>航海王</p>
+                                    <button class="btn1">购票</button>
+                                </a>
+                            </div>
+                            <div class="z2">
+                                <a href="#">
+                                    <img src="./img/img1/2.png">
+                                    <p>万里归途</p>
+                                    <button class="btn1">购票</button>
+                                </a>
+                            </div>
+                            <div class="z2">
+                                <a href="#">
+                                    <img src="./img/img1/3.png">
+                                    <p>狙击手</p>
+                                    <button class="btn1">购票</button>
+                                </a>
+                            </div>
+                            <div class="z2">
+                                <a href="#">
+                                    <img src="./img/img1/4.png">
+                                    <p>坠落</p>
+                                    <button class="btn1">购票</button>
+                                </a>
+                            </div>
+                            <div class="z2">
+                                <a href="#">
+                                    <img src="./img/img1/5.png">
+                                    <p>扫黑行动</p>
+                                    <button class="btn1">购票</button>
+                                </a>
+                            </div>
+                            <div class="z2">
+                                <a href="#">
+                                    <img src="./img/img1/6.png">
+                                    <p>柯南</p>
+                                    <button class="btn1">购票</button>
+                                </a>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    <nav id="bnav">
+        <ul>
+            <li>
+                <a href="./index.html">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-shouye"></use>
+                </svg>
+                <p>首页</p>
+                </a>
+            </li>  
+            <li>
+                <a href="./yingpian.html">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-yingpian"></use>
+                </svg>
+                <p>影片</p>
+                </a>
+            </li>
+              
+            <li>
+                <a href="#">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-faxian"></use>
+                </svg>
+                <p>发现</p>
+                </a>
+            </li>
+             
+            <li>
+                <a href="#">
+            <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-shangcheng"></use>
+                </svg>
+                <p>商城</p>
+                </a>
+            </li>   
+            <li>
+                <a href="./wode.html">
+            <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-wode"></use>
+                </svg>
+                <p>我的</p>
+                </a>
+            </li>
+             </ul>
+            </nav>
+    </div>
+ 
+    <script>
+           //张荭桢
+           var t=document.querySelectorAll(".tab");
+
+for(var i=0;i<t.length;i++){
+    tabs(t[i]);
+}
+
+
+// var tab=document.querySelector(".tab");
+// 找到第一个.tab
+function tabs(tab){
+var tt=tab.getElementsByClassName("tt")[0];
+// var span=tt.getElementsByTagName("span");
+var span=tt.querySelectorAll("span");
+var tc=tab.getElementsByClassName("tc");
+// var tc=tab.querySelectorAll(".tc");
+
+
+for(let i=0;i<span.length;i++){
+    span[i].index=i;
+    span[i].onmousemove=function(){
+        for(let j=0;j<span.length;j++){
+            span[j].classList.remove("cur");
+            tc[j].style.display="none";
+        }
+        this.classList.add("cur");
+        tc[this.index].style.display="block";
+    };
+}
+}
+
+var divBox = document.getElementsByClassName("k1")
+console.log(divBox);
+
+for (var i = 0; i < divBox.length; i++) {
+        if (i % 2 !== 0) {
+            divBox[i].style.backgroundColor = "#FFF8DC";
+        } else {
+            divBox[i].style.backgroundColor = "#F5F5F5";
+        }
+
+        //鼠标进入高亮显示
+        //难点：鼠标移开的时候要回复原始颜色。
+        //计数器（进入tr之后，立刻记录颜色，然后移开的时候使用记录好的颜色）
+        var myColor = "";
+        divBox[i].onmouseover = function () {
+            //赋值颜色之前，先记录颜色
+            myColor = this.style.backgroundColor;
+            this.style.backgroundColor = "#fff";
+        }
+        divBox[i].onmouseout = function () {
+            this.style.backgroundColor = myColor;
+        }
+    }
+
+
+
+var btnBuy = document.getElementsByClassName('btn1')
+for (var i = 0; i < divBox.length; i++) {
+btnBuy[i].onclick = function(){
+    this.innerHTML ="购买成功";
+    this.style.backgroundColor = "red";
+
+}
+}
+    </script>
+</body>
+</html>

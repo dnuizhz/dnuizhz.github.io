@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no, viewport-fit=cover">
+    <title>22201011712张荭桢</title>
+    <script src="./zuoyetubiao/iconfont.js"></script>
+    <style>
+         .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;   
+            /* 设置元素的垂直排列 */
+            fill: currentColor;
+            overflow: hidden;
+            /* 清除浮动 */
+         }
+        body,h2,ul,p{
+            padding: 0;
+            margin: 0;
+         }
+         body{
+            margin-bottom: 35px;
+            background-color: rgb(181, 181, 181);
+         }
+         ul{
+            list-style: none;
+        }
+         a{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+        #bnav{
+            position: fixed;
+            bottom: 0;
+            left:0;
+            z-index: 9;
+            background-color: aliceblue;
+            width: 100%;
+        }
+        #bnav ul{
+            display: flex;
+        }
+        #bnav li{
+            width: 22%;
+            text-align: center;
+        }
+        #bnav svg{
+            font-size: 30px;
+            transition: all .6s;
+            color: #8a8a8a;  
+        }
+        #bnav a{
+            text-decoration: none;
+            color:darkgray;
+            transition: all .6s;
+        }
+        #bnav a:hover{
+            color:rgb(31, 7, 134);
+        }
+        #bnav svg:hover{
+            color:rgb(31, 7, 134) ;
+        }
+        .shang1{
+            width: 100%;
+            height: 80px;
+            background-color: aliceblue;
+            top: 0;
+            position: fixed;
+        }
+        .shang{
+            
+            width: 100%;
+            height: 40px;
+            display: flex;
+        }
+        .ss{
+            width: 70%;
+            height: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 13px;  
+        }
+        .sosuo{
+            width: 70%;
+            height: 20%;
+            text-align: center;
+            position: relative;
+            margin: 0 auto; 
+        }
+        .shang .icon{
+           position: absolute;
+          font-size:1.4rem;
+          left: .8vw;
+          top: .2vh;
+          
+        }
+        .erweima .icon{
+          margin-left:330px;
+          font-size:1.4rem;
+        }
+        .qiandao .icon{
+         margin-left: 360px;
+         font-size:1.4rem;
+        }
+        .zhengzhao .icon{
+        margin-left: 15px;
+        }
+        #bnav2{
+            display: flex;
+            width: 100%;
+            height: 30px;
+        }
+       
+        #bnav2 ul{
+            width:100%; 
+        }
+       
+        #bnav2 li{
+            width: 100%;
+            text-align: center;
+        }
+       
+        #bnav2 a{
+            transition: all .2s;
+            font-size: 15px;
+            color: rgb(0, 0, 0);
+        }
+        
+        #bnav a:hover{
+            font-size: 18px;
+            color: rgb(142, 138, 138);
+        }
+        .tj p{
+            font-size: 23px;
+            color: rgb(5, 5, 5);
+        }
+       .dk{
+        width: 100%;
+        height: 950px;
+       }
+       .shouye{
+        width: 90%;
+        margin-left: auto;
+        margin-right:auto;
+        margin-top: 100px;
+       }
+       .shouye img{
+        width: 100%;
+       }
+       .fd{
+        margin-top: 10px;
+        width: 90%;
+        margin-left: auto;
+        margin-right:auto;
+        height: 250px;
+        background-color: #fff;
+        border-radius: 20px;
+        overflow: hidden;
+        white-space: nowrap;
+       }
+    
+       .lm{
+            width:100%;
+            height:180px;
+            overflow:auto;
+            white-space: nowrap;
+            display: flex;                           
+       }
+       .z1{
+            width: 100%;
+            height: 200px;
+            background-color: #fff;
+            display: flex;
+            
+       }
+       .z2{
+            margin-right:25px;
+            display: flex;
+       }
+  
+       .z2 button{
+            border-radius:20px;
+            border-style: none;
+            background-color: blue;
+            color: #fff;
+            font-size: 20px;
+       }
+       .z2 img{
+            width: 80px;
+            height: auto;
+       }
+       .fd2{
+        margin-top: 30px;
+        width: 90%;
+        margin-left: auto;
+        margin-right:auto;
+        height: 250px;
+        background-color: #fff;
+        border-radius: 20px;
+        overflow: hidden;
+        white-space: nowrap;
+       }
+       .lm2 p{
+        font-size: 20px;
+        font-weight: bolder;
+        margin-bottom: 15px;
+        padding-left: 10px;
+        padding-top: 10px;
+       }
+       .z3 img{
+        width: 100px;
+        height: auto;
+       }
+       .z3{
+        margin-right:25px;
+        display: flex;
+       }
+       .ewmfd{
+        position: fixed;
+        width: 130px;
+        height: 160px;
+        right: 20px;
+        top: 30px;
+        background-color: #fff;
+        display: none;
+        font-size: 13px;
+        text-align: center;
+        font-weight: bold;
+       }
+       .ewmfd img{
+        width: 100%;
+        height: 110;
+       }
+    </style>
+</head>
+<body>
+
+    <div class="shang1">
+     <div class="shang">
+        <div class="zhengzhao">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-a-ziyuan97"></use>
+            </svg>
+        </div>
+       <div class="sosuo">
+             <svg class="icon" aria-hidden="true">
+                 <use xlink:href="#icon-sousuo1"></use>
+             </svg>
+             <input type="text" placeholder="22201011712张荭桢" class="ss">
+            
+        </div>
+        <div class="erweima">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-erweima"></use>
+            </svg>
+        </div>
+        <div class="qiandao">
+            <svg class="icon" aria-hidden="true">
+                <use xlink:href="#icon-qiandao"></use>
+            </svg>
+        </div>
+
+    </div>
+    <div class="ewmfd"><img src="../万达电影/img/img7/erweima.png" alt="微信公众号">扫描关注微信公众号</p></div>
+    <nav id="bnav2">
+        <ul>
+            <li class="tj">
+                <a href="./index.html">
+                    <p>推荐</p>
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="#">
+                    <p>w+会员</p>
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="./dianyingjia.html">
+                    <p>电影+</p>
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="./yingmishuqian.html">
+                    <p>影迷书签</p>
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="./shiguangzhibo.html">
+                    <p>时光直播</p>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    </div>
+   
+    <nav id="bnav">
+        <ul>
+            <li>
+                <a href="./index.html">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-shouye"></use>
+                </svg>
+                <p>首页</p>
+                </a>
+            </li>  
+            <li>
+                <a href="./yingpian.html">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-yingpian"></use>
+                </svg>
+                <p>影片</p>
+                </a>
+            </li>
+              
+            <li>
+                <a href="#">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-faxian"></use>
+                </svg>
+                <p>发现</p>
+                </a>
+            </li>
+             
+            <li>
+                <a href="#">
+            <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-shangcheng"></use>
+                </svg>
+                <p>商城</p>
+                </a>
+            </li>   
+            <li>
+                <a href="./wode.html">
+            <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-wode"></use>
+                </svg>
+                <p>我的</p>
+                </a>
+            </li>
+             </ul>
+            </nav>
+   <div class="dk">
+    <div class="shouye">
+        <img src="./img/img3/shouye.jpg" >
+    </div>
+    <div class="fd">
+        <div class="lm2">
+            <p>正在热映</p>
+        </div>
+        <div class="lm">
+            <div class="z1">
+                <div class="z2">
+                    <a href="#">
+                        <img src="./img/img1/1.png">
+                        <p>航海王</p>
+                        <button class="btn">购票</button>
+                    </a>
+                </div>
+                <div class="z2">
+                    <a href="#">
+                        <img src="./img/img1/2.png">
+                        <p>万里归途</p>
+                        <button class="btn">购票</button>
+                    </a>
+                </div>
+                <div class="z2">
+                    <a href="#">
+                        <img src="./img/img1/3.png">
+                        <p>狙击手</p>
+                        <button class="btn">购票</button>
+                    </a>
+                </div>
+                <div class="z2">
+                    <a href="#">
+                        <img src="./img/img1/4.png">
+                        <p>坠落</p>
+                        <button class="btn">购票</button>
+                    </a>
+                </div>
+                <div class="z2">
+                    <a href="#">
+                        <img src="./img/img1/5.png">
+                        <p>扫黑行动</p>
+                        <button class="btn">购票</button>
+                    </a>
+                </div>
+                <div class="z2">
+                    <a href="#">
+                        <img src="./img/img1/6.png">
+                        <p>柯南</p>
+                        <button class="btn">购票</button>
+                    </a>
+               </div>
+            </div>
+        </div>
+    </div>
+    <div class="fd2">
+        <div class="lm2">
+            <p>星选好物</p>   
+        </div>
+        <div class="lm">
+            <div class="z1">
+                <div class="z3">
+                    <a href="#">
+                        <img src="./img/img2/1.jpg">
+                        <p>c罗挂扣</p>
+                       <div class="jg">
+                        <p>￥199</p>
+                       </div>
+                    </a>
+                </div>
+                <div class="z3">
+                    <a href="#">
+                        <img src="./img/img2/2.jpg">
+                        <p>世界杯徽章</p>
+                        <div class="jg">
+                            <p>￥199</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="z3">
+                    <a href="#">
+                        <img src="./img/img2/3.jpg">
+                        <p>梅西纪念</p>
+                        <div class="jg">
+                            <p>￥199</p>
+                       </div>
+                    </a>
+                </div>
+                <div class="z3">
+                    <a href="#">
+                        <img src="./img/img2/4.jpg">
+                        <p>卡塔尔挂扣</p>
+                        <div class="jg">
+                            <p>￥199</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="z3">
+                    <a href="#">
+                        <img src="./img/img2/5.jpg">
+                        <p>球衣挂扣</p>
+                        <div class="jg">
+                            <p>￥199</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <span class="time" style="margin-left: 8%;"></span>
+    </div>
+   </div>   
+</body>
+<script>
+    var _box=document.getElementsByClassName("time");
+console.log(_box);
+			var id=setInterval(function function_name () {
+				var date=new Date();
+				var years=date.getFullYear();
+				var months=date.getMonth();
+				var days=date.getDate();
+				var weeks=date.getDay();
+				var date1=new Date(`${years}-${months+1}-${days}`);
+				var times=date-date1;
+				var hours=parseInt(times/1000/60/60);
+				var minutes=parseInt(times/1000/60%60);
+				var seconds=parseInt(times/1000%60);
+				var zhou;
+				switch(weeks){
+					case 0:
+						zhou="星期日";
+						break;
+					case 1:
+						zhou="星期一";
+						break;
+					case 2:
+						zhou="星期二";
+						break;
+					case 3:
+						zhou="星期三";
+						break;
+					case 4:
+						zhou="星期四";
+						break;
+					case 5:
+						zhou="星期五";
+						break;
+					default:
+						zhou="星期六";
+						break;
+				}
+				if(seconds==1||seconds==2||seconds==3||seconds==4||seconds==5||seconds==6||seconds==7||seconds==8||seconds==9||seconds==0){
+					seconds="0"+seconds;
+				}
+				if(minutes==1||minutes==2||minutes==3||minutes==4||minutes==5||minutes==6||minutes==7||minutes==8||minutes==9||minutes==0){
+					minutes="0"+minutes;
+				}
+				if(Number(hours)>12){
+					var a="PM"
+					hours=hours-12;
+				}else{
+					var a="AM"
+				}
+				if(hours==1||hours==2||hours==3||hours==4||hours==5||hours==6||hours==7||hours==8||hours==9){
+					hours="0"+hours;
+				}
+                document.querySelector(".time").innerHTML="今天是"+years+"年"+months+"月"+days+"日"+"&ensp;"+zhou+"&ensp;"+hours+":"+minutes+":"+seconds+"&ensp;"+a;
+			},1000);
+
+            var btn = document.getElementsByClassName("btn")
+            for (let i = 0; i < btn.length; i++) {
+
+        var myColor = "";
+        btn[i].onmouseover = function () {
+            //赋值颜色之前，先记录颜色
+            myColor = this.style.backgroundColor;
+            this.style.backgroundColor = "red";
+        }
+        btn[i].onmouseout = function () {
+            this.style.backgroundColor = myColor;
+        }
+}
+</script>
+<script>
+    var ewmfd = document.querySelector(".ewmfd")
+    var erweima = document.querySelector(".erweima")
+    erweima.onmouseover=function(){
+        ewmfd.style.display="block";
+    }
+    erweima.onmouseout=function(){
+        ewmfd.style.display="";
+    }
+</script>
+</html>
