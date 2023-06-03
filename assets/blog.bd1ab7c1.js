@@ -1,0 +1,1 @@
+import{_ as e,u as o,s,o as t,e as n,f as r}from"./index.f785cb35.js";const a={name:"blog",setup(){return o(),s(),t(()=>{}),{}}};function u(c,p,_,l,f,d){return n(),r("h1",null,"\u535A\u5BA2")}const i=e(a,[["render",u]]);export{i as default};

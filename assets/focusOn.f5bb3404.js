@@ -1,0 +1,1 @@
+import{_ as e,e as n,f as t}from"./index.f785cb35.js";const o={name:"focusOn",setup(){return{}}};function s(c,r,a,f,p,u){return n(),t("h1",null,"\u5173\u6CE8")}const l=e(o,[["render",s]]);export{l as default};

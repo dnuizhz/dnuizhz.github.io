@@ -1,0 +1,1 @@
+import{_ as e,e as o,f as _}from"./index.f785cb35.js";const c={name:"moving"},n={id:"moving"};function t(s,a,i,r,d,p){return o(),_("div",n," \u6682\u65E0\u76F8\u5173\u52A8\u6001 ")}const v=e(c,[["render",t],["__scopeId","data-v-c25c1a1b"]]);export{v as default};
